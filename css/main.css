@@ -121,8 +121,6 @@ h2 {
 }
 
 .order-button {
-  display: flex;
-  justify-content: center;
   font-weight: bold;
   background-color: red;
   font-size: 18px;
@@ -130,6 +128,47 @@ h2 {
   text-align: center;
   border-radius: 9px;
   width: 130px;
+  max-height: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0 auto;
+  box-shadow: 0 2px, 4px grey;
+}
+
+.ordering-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-image: url(../_consigne/images/footer\ background.webp);
+  background-position: center;
+  background-size: 100%;
+}
+
+footer > h2 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer > p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 30px 30px 30px;
+  line-height: 19px;
+}
+
+.program-presentation {
+  color: red;
+}
+
+.source {
+  color: white;
+  line-height: 14px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 40px;
 }
